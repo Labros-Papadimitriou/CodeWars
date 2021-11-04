@@ -2,7 +2,7 @@
 ## Solutions in Python Kata
 - [Python - 6 kyu](#python---6-kyu)
 ## Solutions in JavaScript Kata
-- [JavaScript 7 kyu](#javascript---7-kyu)
+- [JavaScript - 7 kyu](#javascript---7-kyu)
 
 
 ### Python - 6 kyu
