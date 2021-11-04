@@ -1,8 +1,8 @@
 # Codewars
 ## Solutions in Python Kata
-- [Python-6 kyu](#python-4-kyu)
+- [Python-6 kyu](#python-6-kyu)
 ## Solutions in JavaScript Kata
-- [Solutions-7 kyu](#solutions-6-kyu)
+- [Solutions-7 kyu](#solutions-7-kyu)
 
 
 ### Python - 6 kyu
