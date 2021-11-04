@@ -1,8 +1,8 @@
 # Codewars
 ## Solutions in Python Kata
-- [6 kyu](#6-kyu)
+- [6 kyu](#python-6-kyu)
 ## Solutions in JavaScript Kata
-- [7 kyu](#7-kyu)
+- [7 kyu](#javascript-7-kyu)
 
 
 ### Python - 6 kyu
