@@ -6,7 +6,7 @@
 
 
 ### Python - 6 kyu
- - |	Difficulty | Challenge	| Solution |
+|	Difficulty | Challenge	| Solution |
 |------------|------------|----------|
 | 6 kyu | [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362) | [who-likes-it.py](./Python/who-likes-it.py) |
 
