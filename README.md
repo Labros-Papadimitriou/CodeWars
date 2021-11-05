@@ -4,9 +4,9 @@
 - [Python - 5 kyu](#python---5-kyu)
 - [Python - 4 kyu](#python---4-kyu)
 ## Solutions in JavaScript Kata
+- [JavaScript - 4 kyu](#javascript---4-kyu)
+- [JavaScript - 5 kyu](#javascript---5-kyu)
 - [JavaScript - 6 kyu](#javascript---6-kyu)
-- [JavaScript - 5 kyu](#javascript---6-kyu)
-- [JavaScript - 4 kyu](#javascript---6-kyu)
 
 
 ### Python - 6 kyu
