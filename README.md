@@ -14,6 +14,19 @@
 |------------|------------|----------|
 | 6 kyu | [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362) | [who-likes-it.py](./Python/who-likes-it.py) |
 
+### JavaScript - 4 kyu
+|	Difficulty | Kata	| Solution |
+|------------|------------|----------|
+| 4 kyu | [Twice linear](https://www.codewars.com/kata/5672682212c8ecf83e000050) | [twice-linear.js](./JavaScript/twice-linear.js) |
+
+### JavaScript - 5 kyu
+|	Difficulty | Kata	| Solution |
+|------------|------------|----------|
+| 5 kyu | [Extract the domain name from a URL](https://www.codewars.com/kata/514a024011ea4fb54200004b) | [extract-the-domain-name-from-a-url.js](./JavaScript/extract-the-domain-name-from-a-url.js) |
+| 5 kyu | [String incrementer](https://www.codewars.com/kata/54a91a4883a7de5d7800009c) | [string-increment.js](./JavaScript/string-increment.js) |
+| 5 kyu | [Human Readable Time](https://www.codewars.com/kata/52685f7382004e774f0001f7) | [human-readable.js](./JavaScript/human-readable.js) |
+| 5 kyu | [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [moving-zeros-to-the-end.js](./JavaScript/moving-zeros-to-the-end.js) |
+
 ### JavaScript - 6 kyu
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
@@ -26,16 +39,3 @@
 | 6 kyu | [Find The Parity Outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) | [find-the-parity-outlier.js](./JavaScript/find-the-parity-outlier.js) |
 | 6 kyu | [Replace With Alphabet Position](https://www.codewars.com/kata/546f922b54af40e1e90001da) | [replace-with-alphabet-position.js](./JavaScript/replace-with-alphabet-position.js) |
 | 6 kyu | [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) | [your-order-please.js](./JavaScript/your-order-please.js) |
-
-### JavaScript - 5 kyu
-|	Difficulty | Kata	| Solution |
-|------------|------------|----------|
-| 5 kyu | [Extract the domain name from a URL](https://www.codewars.com/kata/514a024011ea4fb54200004b) | [extract-the-domain-name-from-a-url.js](./JavaScript/extract-the-domain-name-from-a-url.js) |
-| 5 kyu | [String incrementer](https://www.codewars.com/kata/54a91a4883a7de5d7800009c) | [string-increment.js](./JavaScript/string-increment.js) |
-| 5 kyu | [Human Readable Time](https://www.codewars.com/kata/52685f7382004e774f0001f7) | [human-readable.js](./JavaScript/human-readable.js) |
-| 5 kyu | [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [moving-zeros-to-the-end.js](./JavaScript/moving-zeros-to-the-end.js) |
-
-### JavaScript - 4 kyu
-|	Difficulty | Kata	| Solution |
-|------------|------------|----------|
-| 4 kyu | [Twice linear](https://www.codewars.com/kata/5672682212c8ecf83e000050) | [twice-linear.js](./JavaScript/twice-linear.js) |
