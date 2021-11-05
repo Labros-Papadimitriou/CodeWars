@@ -1,18 +1,27 @@
 # Codewars
 ## Solutions in Python Kata
-- [Python - 6 kyu](#python---6-kyu)
-- [Python - 5 kyu](#python---5-kyu)
 - [Python - 4 kyu](#python---4-kyu)
+- [Python - 5 kyu](#python---5-kyu)
+- [Python - 6 kyu](#python---6-kyu)
 ## Solutions in JavaScript Kata
 - [JavaScript - 4 kyu](#javascript---4-kyu)
 - [JavaScript - 5 kyu](#javascript---5-kyu)
 - [JavaScript - 6 kyu](#javascript---6-kyu)
 
 
+### Python - 4 kyu
+|	Difficulty | Kata	| Solution |
+|------------|------------|----------|
+
+### Python - 5 kyu
+|	Difficulty | Kata	| Solution |
+|------------|------------|----------|
+
 ### Python - 6 kyu
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
 | 6 kyu | [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362) | [who-likes-it.py](./Python/who-likes-it.py) |
+
 
 ### JavaScript - 4 kyu
 |	Difficulty | Kata	| Solution |
