@@ -1,5 +1,5 @@
 # Codewars
-## Solutions in Python Kata
+## Solutions in Python Kata 
 - [Python - 4 kyu](#python---4-kyu)
 - [Python - 5 kyu](#python---5-kyu)
 - [Python - 6 kyu](#python---6-kyu)
