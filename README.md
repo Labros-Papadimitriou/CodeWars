@@ -23,6 +23,8 @@
 | 6 kyu | [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362) | [who-likes-it.py](./Python/who-likes-it.py) |
 | 6 kyu | [Stop gninnipS My sdroW!](https://www.codewars.com/kata/5264d2b162488dc400000001) | [stop-gninnips-my-sdrow.py](./Python/stop-gninnips-my-sdrow.py) |
 | 6 kyu | [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006) | [multiples-of-3-or-5.py](./Python/multiples-of-3-or-5.py) |
+| 6 kyu | [Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836) | [find-the-odd-int.py](./Python/find-the-odd-int.py) |
+| 6 kyu | [Sum of Digits / Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00) | [sum-of-digits-digital-root.py](./Python/sum-of-digits-digital-root.py) |
 
 
 ### JavaScript - 4 kyu
