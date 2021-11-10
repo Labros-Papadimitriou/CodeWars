@@ -16,7 +16,7 @@
 ### Python - 5 kyu
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
-| 5 kyu | [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1) | [counting-duplicates.py](./Python/counting-duplicates.py) |
+| 5 kyu | [Calculating with Functions](https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39) | [calculating-with-functions.py](./Python/calculating-with-functions.py) |
 
 ### Python - 6 kyu
 |	Difficulty | Kata	| Solution |
