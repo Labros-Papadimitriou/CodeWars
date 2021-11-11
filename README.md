@@ -13,6 +13,8 @@
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
 | 4 kyu | [Next bigger number with the same digits](https://www.codewars.com/kata/55983863da40caa2c900004e) | [next-bigger-number-same-digits.py](./Python/next-bigger-number-same-digits.py) |
+| 4 kyu | [Twice linear](https://www.codewars.com/kata/5672682212c8ecf83e000050) | [twice-linear.py](./Python/twice-linear.py) |
+
 
 ### Python - 5 kyu
 |	Difficulty | Kata	| Solution |
