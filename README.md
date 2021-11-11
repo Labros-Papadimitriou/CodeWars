@@ -18,6 +18,7 @@
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
 | 5 kyu | [Calculating with Functions](https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39) | [calculating-with-functions.py](./Python/calculating-with-functions.py) |
+| 5 kyu | [Directions Reduction](https://www.codewars.com/kata/550f22f4d758534c1100025a) | [directions-reduction.py](./Python/directions-reduction.py) |
 
 ### Python - 6 kyu
 |	Difficulty | Kata	| Solution |
