@@ -33,6 +33,7 @@
 | 6 kyu | [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1) | [counting-duplicates.py](./Python/counting-duplicates.py) |
 | 6 kyu | [Persistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) | [persistent-bugger.py](./Python/persistent-bugger.py) |
 | 6 kyu | [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) | [duplicate-encoder.py](./Python/duplicate-encoder.py) |
+| 6 kyu | [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83) | [create-phone-number.py](./Python/create-phone-number.py) |
 
 ### JavaScript - 4 kyu
 |	Difficulty | Kata	| Solution |
