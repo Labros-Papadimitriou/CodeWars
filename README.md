@@ -65,3 +65,5 @@
 | 6 kyu | [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) | [your-order-please.js](./JavaScript/your-order-please.js) |
 | 6 kyu | [Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003) | [convert-string-to-camel-case.js](./JavaScript/convert-string-to-camel-case.js) |
 | 6 kyu | [Sort the odd](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d) | [sort-the-odd.js](./JavaScript/sort-the-odd.js) |
+| 6 kyu | [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667) | [unique-in-order.js](./JavaScript/unique-in-order.js) |
+
