@@ -63,4 +63,4 @@
 | 6 kyu | [Find The Parity Outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) | [find-the-parity-outlier.js](./JavaScript/find-the-parity-outlier.js) |
 | 6 kyu | [Replace With Alphabet Position](https://www.codewars.com/kata/546f922b54af40e1e90001da) | [replace-with-alphabet-position.js](./JavaScript/replace-with-alphabet-position.js) |
 | 6 kyu | [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) | [your-order-please.js](./JavaScript/your-order-please.js) |
-| 6 kyu | [Find The Parity Outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) | [find-the-parity-outlier.js](./JavaScript/find-the-parity-outlier.js) |
+| 6 kyu | [Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003) | [convert-string-to-camel-case.js](./JavaScript/convert-string-to-camel-case.js) |
