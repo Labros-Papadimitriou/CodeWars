@@ -22,6 +22,7 @@
 | 5 kyu | [Calculating with Functions](https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39) | [calculating-with-functions.py](./Python/calculating-with-functions.py) |
 | 5 kyu | [Directions Reduction](https://www.codewars.com/kata/550f22f4d758534c1100025a) | [directions-reduction.py](./Python/directions-reduction.py) |
 | 5 kyu | [Simple Pig Latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f) | [simple-pig-latin.py](./Python/simple-pig-latin.py) |
+| 5 kyu | [Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1) | [where-my-anagrams-at.py](./Python/where-my-anagrams-at.py) |
 
 ### Python - 6 kyu
 |	Difficulty | Kata	| Solution |
