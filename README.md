@@ -69,4 +69,4 @@
 | 6 kyu | [Sort the odd](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d) | [sort-the-odd.js](./JavaScript/sort-the-odd.js) |
 | 6 kyu | [Equal Sides Of An Array](https://www.codewars.com/kata/5679aa472b8f57fb8c000047) | [equal-sides-if-an-array.js](./JavaScript/equal-sides-if-an-array.js) |
 | 6 kyu | [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667) | [unique-in-order.js](./JavaScript/unique-in-order.js) |
-
+| 6 kyu | [Find the unique number](https://www.codewars.com/kata/585d7d5adb20cf33cb000235) | [find-the-unique-number.js](./JavaScript/find-the-unique-number.js) |
