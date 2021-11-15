@@ -16,7 +16,6 @@
 | 4 kyu | [Twice linear](https://www.codewars.com/kata/5672682212c8ecf83e000050) | [twice-linear.py](./Python/twice-linear.py) |
 | 4 kyu | [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a) | [human-readable-duration-format.py](./Python/human-readable-duration-format.py) |
 
-
 ### Python - 5 kyu
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
