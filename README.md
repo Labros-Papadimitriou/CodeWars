@@ -42,6 +42,8 @@
 |------------|------------|----------|
 | 4 kyu | [Twice linear](https://www.codewars.com/kata/5672682212c8ecf83e000050) | [twice-linear.js](./JavaScript/twice-linear.js) |
 | 4 kyu | [Sum Strings as Numbers](https://www.codewars.com/kata/5324945e2ece5e1f32000370) | [sum-strings-as-numbers.js](./JavaScript/sum-strings-as-numbers.js) |
+| 4 kyu | [-Reverse it, quickly!](https://www.codewars.com/kata/59ae589c07157afba80000a7) | [reverse-it-quickly.js](./JavaScript/reverse-it-quickly.js) |
+| 4 kyu | [Multiplying numbers as strings](https://www.codewars.com/kata/55911ef14065454c75000062) | [multiplying-numbers-as-strings.js](./JavaScript/multiplying-numbers-as-strings.js) |
 
 ### JavaScript - 5 kyu
 |	Difficulty | Kata	| Solution |
