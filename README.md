@@ -43,6 +43,7 @@
 | 4 kyu | [Sum Strings as Numbers](https://www.codewars.com/kata/5324945e2ece5e1f32000370) | [sum-strings-as-numbers.js](./JavaScript/sum-strings-as-numbers.js) |
 | 4 kyu | [-Reverse it, quickly!](https://www.codewars.com/kata/59ae589c07157afba80000a7) | [reverse-it-quickly.js](./JavaScript/reverse-it-quickly.js) |
 | 4 kyu | [Multiplying numbers as strings](https://www.codewars.com/kata/55911ef14065454c75000062) | [multiplying-numbers-as-strings.js](./JavaScript/multiplying-numbers-as-strings.js) |
+| 4 kyu | [Snail](https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1) | [snail.js](./JavaScript/snail.js) |
 
 ### JavaScript - 5 kyu
 |	Difficulty | Kata	| Solution |
