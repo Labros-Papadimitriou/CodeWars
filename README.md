@@ -4,6 +4,7 @@
 - [Python - 5 kyu](#python---5-kyu)
 - [Python - 6 kyu](#python---6-kyu)
 ## Solutions in JavaScript Kata
+- [JavaScript - 3 kyu](#javascript---3-kyu)
 - [JavaScript - 4 kyu](#javascript---4-kyu)
 - [JavaScript - 5 kyu](#javascript---5-kyu)
 - [JavaScript - 6 kyu](#javascript---6-kyu)
@@ -35,6 +36,11 @@
 | 6 kyu | [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1) | [counting-duplicates.py](./Python/counting-duplicates.py) |
 | 6 kyu | [Persistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) | [persistent-bugger.py](./Python/persistent-bugger.py) |
 | 6 kyu | [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) | [duplicate-encoder.py](./Python/duplicate-encoder.py) |
+
+### JavaScript - 3 kyu
+|	Difficulty | Kata	| Solution |
+|------------|------------|----------|
+| 3 kyu | [One Line Task: Check Range](https://www.codewars.com/users/Labros-Papadimitriou/completed_solutions) | [one-line-task-check-range.js](./JavaScript/one-line-task-check-range.js) |
 
 ### JavaScript - 4 kyu
 |	Difficulty | Kata	| Solution |
