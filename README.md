@@ -8,6 +8,8 @@
 - [JavaScript - 4 kyu](#javascript---4-kyu)
 - [JavaScript - 5 kyu](#javascript---5-kyu)
 - [JavaScript - 6 kyu](#javascript---6-kyu)
+## Solutions in C# Kata 
+- [C# - 4 kyu](#c#---4-kyu)
 
 
 ### Python - 4 kyu
@@ -78,3 +80,8 @@
 | 6 kyu | [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667) | [unique-in-order.js](./JavaScript/unique-in-order.js) |
 | 6 kyu | [Find the unique number](https://www.codewars.com/kata/585d7d5adb20cf33cb000235) | [find-the-unique-number.js](./JavaScript/find-the-unique-number.js) |
 | 6 kyu | [Detect Pangram](https://www.codewars.com/kata/545cedaa9943f7fe7b000048) | [detect-pangram.js](./JavaScript/detect-pangram.js) |
+
+### C# - 4 kyu
+|	Difficulty | Kata	| Solution |
+|------------|------------|----------|
+| 4 kyu | [Adding Big Numbers](https://www.codewars.com/kata/525f4206b73515bffb000b21) | [adding-big-numbers.cs](./C#/adding-big-numbers.cs) |
