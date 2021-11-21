@@ -9,7 +9,7 @@
 - [JavaScript - 5 kyu](#javascript---5-kyu)
 - [JavaScript - 6 kyu](#javascript---6-kyu)
 ## Solutions in C# Kata 
-- [C# - 4 kyu](#C-#----4-kyu)
+- [C# - 4 kyu](#C---4-kyu)
 
 
 ### Python - 4 kyu
