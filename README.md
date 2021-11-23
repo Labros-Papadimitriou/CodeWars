@@ -61,6 +61,7 @@
 | 5 kyu | [String incrementer](https://www.codewars.com/kata/54a91a4883a7de5d7800009c) | [string-increment.js](./JavaScript/string-increment.js) |
 | 5 kyu | [Human Readable Time](https://www.codewars.com/kata/52685f7382004e774f0001f7) | [human-readable.js](./JavaScript/human-readable.js) |
 | 5 kyu | [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [moving-zeros-to-the-end.js](./JavaScript/moving-zeros-to-the-end.js) |
+| 5 kyu | [Regex Password Validation](https://www.codewars.com/kata/52e1476c8147a7547a000811) | [regex-password-validation.js](./JavaScript/regex-password-validation.js) |
 
 ### JavaScript - 6 kyu
 |	Difficulty | Kata	| Solution |
