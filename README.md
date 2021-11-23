@@ -81,6 +81,7 @@
 | 6 kyu | [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667) | [unique-in-order.js](./JavaScript/unique-in-order.js) |
 | 6 kyu | [Find the unique number](https://www.codewars.com/kata/585d7d5adb20cf33cb000235) | [find-the-unique-number.js](./JavaScript/find-the-unique-number.js) |
 | 6 kyu | [Detect Pangram](https://www.codewars.com/kata/545cedaa9943f7fe7b000048) | [detect-pangram.js](./JavaScript/detect-pangram.js) |
+| 6 kyu | [Count characters in your string](https://www.codewars.com/kata/52efefcbcdf57161d4000091) | [count-characters-in-your-string.js](./JavaScript/count-characters-in-your-string.js) |
 
 ### C# - 4 kyu
 |	Difficulty | Kata	| Solution |
