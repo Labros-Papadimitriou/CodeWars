@@ -11,7 +11,7 @@
 ## Solutions in C# Kata 
 - [C# - 4 kyu](#C---4-kyu)
 
-
+ 
 ### Python - 4 kyu
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
