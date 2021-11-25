@@ -62,6 +62,7 @@
 | 5 kyu | [Human Readable Time](https://www.codewars.com/kata/52685f7382004e774f0001f7) | [human-readable.js](./JavaScript/human-readable.js) |
 | 5 kyu | [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [moving-zeros-to-the-end.js](./JavaScript/moving-zeros-to-the-end.js) |
 | 5 kyu | [Regex Password Validation](https://www.codewars.com/kata/52e1476c8147a7547a000811) | [regex-password-validation.js](./JavaScript/regex-password-validation.js) |
+| 5 kyu | [count '9's from 1 to n](https://www.codewars.com/kata/55143152820d22cdf00001bb) | [count-9s-from-1-to-n.js](./JavaScript/count-9s-from-1-to-n.js) |
 
 ### JavaScript - 6 kyu
 |	Difficulty | Kata	| Solution |
