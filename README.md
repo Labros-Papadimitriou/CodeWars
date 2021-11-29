@@ -10,6 +10,8 @@
 - [JavaScript - 6 kyu](#javascript---6-kyu)
 ## Solutions in C# Kata 
 - [C# - 4 kyu](#C---4-kyu)
+- [C# - 5 kyu](#C---5-kyu)
+- [C# - 6 kyu](#C---6-kyu)
 
   
 ### Python - 4 kyu
