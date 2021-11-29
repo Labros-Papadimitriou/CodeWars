@@ -96,6 +96,8 @@
 ### C# - 5 kyu
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
+| 5 kyu | [Number of trailing zeros of N!](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34) | [numbers-of-trailing-zeros-of-n.cs](./C(sharp)/numbers-of-trailing-zeros-of-n.cs) |
+
 
 ### C# - 6 kyu
 |	Difficulty | Kata	| Solution |
