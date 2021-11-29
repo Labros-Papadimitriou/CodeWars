@@ -90,4 +90,13 @@
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
 | 4 kyu | [Adding Big Numbers](https://www.codewars.com/kata/525f4206b73515bffb000b21) | [adding-big-numbers.cs](./C(sharp)/adding-big-numbers.cs) |
- 
+
+### C# - 5 kyu
+|	Difficulty | Kata	| Solution |
+|------------|------------|----------|
+
+### C# - 6 kyu
+|	Difficulty | Kata	| Solution |
+|------------|------------|----------|
+| 6 kyu | [Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](https://www.codewars.com/kata/5626b561280a42ecc50000d1) | [take-a-number-and-sum-its-digits-raised.cs](./C(sharp)/take-a-number-and-sum-its-digits-raised.cs) |
+
