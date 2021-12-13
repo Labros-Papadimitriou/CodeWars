@@ -88,6 +88,7 @@
 | 6 kyu | [Detect Pangram](https://www.codewars.com/kata/545cedaa9943f7fe7b000048) | [detect-pangram.js](./JavaScript/detect-pangram.js) |
 | 6 kyu | [Count characters in your string](https://www.codewars.com/kata/52efefcbcdf57161d4000091) | [count-characters-in-your-string.js](./JavaScript/count-characters-in-your-string.js) |
 | 6 kyu | [Break camelCase](https://www.codewars.com/kata/5208f99aee097e6552000148) | [break-camel-case.js](./JavaScript/break-camel-case.js) |
+| 6 kyu | [Take a Ten Minute Walk](https://www.codewars.com/kata/54da539698b8a2ad76000228) | [take-a-ten-minute-walk.js](./JavaScript/take-a-ten-minute-walk.js) |
 
 ### C# - 4 kyu
 |	Difficulty | Kata	| Solution |
