@@ -94,6 +94,8 @@
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
 | 4 kyu | [Adding Big Numbers](https://www.codewars.com/kata/525f4206b73515bffb000b21) | [adding-big-numbers.cs](./C(sharp)/adding-big-numbers.cs) |
+| 4 kyu | [Strings Mix](https://www.codewars.com/kata/5629db57620258aa9d000014) | [strings-mix.cs](./C(sharp)/strings-mix.cs) |
+
 
 ### C# - 5 kyu
 |	Difficulty | Kata	| Solution |
