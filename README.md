@@ -107,3 +107,5 @@
 |------------|------------|----------|
 | 6 kyu | [Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](https://www.codewars.com/kata/5626b561280a42ecc50000d1) | [take-a-number-and-sum-its-digits-raised.cs](./C(sharp)/take-a-number-and-sum-its-digits-raised.cs) |
 | 6 kyu | [Backspaces in string](https://www.codewars.com/kata/5727bb0fe81185ae62000ae3) | [backspaces-in-string.cs](./C(sharp)/backspaces-in-string.cs) |
+| 6 kyu | [String average](https://www.codewars.com/kata/5966847f4025872c7d00015b) | [string-average.cs](./C(sharp)/string-average.cs) |
+
