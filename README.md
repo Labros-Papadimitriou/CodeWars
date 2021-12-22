@@ -101,6 +101,8 @@
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
 | 5 kyu | [Number of trailing zeros of N!](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34) | [numbers-of-trailing-zeros-of-n.cs](./C(sharp)/numbers-of-trailing-zeros-of-n.cs) |
+| 5 kyu | [Convert PascalCase string into snake_case](https://www.codewars.com/kata/58f1419b03388b4d45000081) | [convert-pascalcase-string-into-snake_case.cs](./C(sharp)/convert-pascalcase-string-into-snake_case.cs) |
+
 
 ### C# - 6 kyu
 |	Difficulty | Kata	| Solution |
