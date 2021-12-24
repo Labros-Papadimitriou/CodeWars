@@ -1,0 +1,105 @@
+DESCRIPTION
+
+You are given a string containing zeros or positive numbers and letters <b>ONLY</b>. String will never be empty.<br/>
+Your task is to return a string with each number raised to power of 2, without touching the letters.<br/>
+<b>Example Input:</b> "a2b4c" <b>Result:</b> "a4b16c"<br/>
+<b>Example Input:</b> "123" <b>Result:</b> "149"<br/>
+<b>Example Input:</b> "abcd" <b>Result:</b> "abcd"
+
+===================================================================================================================================
+===================================================================================================================================
+
+EXAMPLE TEST CASES
+
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
+  
+    [TestFixture]
+    public class Sample_Tests
+    {
+        [Test]
+        public void RaiseStringNumbers_TEST()
+        {
+          Assert.AreEqual("a4b16c", Kata.RaiseStringNumbers("a2b4c"));
+          Assert.AreEqual("149", Kata.RaiseStringNumbers("123"));
+          Assert.AreEqual("abcd", Kata.RaiseStringNumbers("abcd"));
+        }
+    }
+}
+
+===================================================================================================================================
+===================================================================================================================================
+
+TEST CASES
+
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
+  
+    [TestFixture]
+    public class Random_Tests
+    {
+      [Test]
+        public void RaiseStringNumbers_TEST()
+        {
+          Assert.AreEqual("a4b16c", Kata.RaiseStringNumbers("a2b4c"));
+          Assert.AreEqual("149", Kata.RaiseStringNumbers("123"));
+          Assert.AreEqual("abcd", Kata.RaiseStringNumbers("abcd"));
+        }
+      
+        [Test]
+        public void RaiseStringNumbers_TEST2()
+        {
+          Assert.AreEqual("0", Kata.RaiseStringNumbers("0"));
+          Assert.AreEqual("1", Kata.RaiseStringNumbers("1"));
+          Assert.AreEqual("014", Kata.RaiseStringNumbers("012"));
+          Assert.AreEqual("0a0z4", Kata.RaiseStringNumbers("0a0z2"));
+          Assert.AreEqual("0000000000", Kata.RaiseStringNumbers("0000000000"));
+          Assert.AreEqual("kjdhgabfkljhdgbaoljghbagasgdfashfg", Kata.RaiseStringNumbers("kjdhgabfkljhdgbaoljghbagasgdfashfg"));
+          Assert.AreEqual("818181", Kata.RaiseStringNumbers("999"));
+          Assert.AreEqual("0149162536496481", Kata.RaiseStringNumbers("0123456789"));
+          Assert.AreEqual("qwfdqwf25gqgwfqwg0", Kata.RaiseStringNumbers("qwfdqwf5gqgwfqwg0"));
+          Assert.AreEqual("101010", Kata.RaiseStringNumbers("101010"));
+          Assert.AreEqual("363636", Kata.RaiseStringNumbers("666"));
+        }
+    }
+}
+
+===================================================================================================================================
+===================================================================================================================================
+
+INITIAL SOLUTION
+
+namespace Solution {
+  public class Kata
+  {
+    public static string RaiseStringNumbers(string str)
+    {
+      return //You can go for OneLine Solution :=D
+    }
+  }
+}
+
+===================================================================================================================================
+===================================================================================================================================
+
+COMPLETE SOLUTION
+
+namespace Solution
+{
+    using System;
+    using System.Linq;
+    public class Kata
+    {
+        public static string RaiseStringNumbers(string str)
+        {
+            return string.Concat(str.Select(x => char.IsDigit(x) ? Math.Pow(x - 48, 2).ToString() : x.ToString()));
+        }
+    }
+}
+
+===================================================================================================================================
+===================================================================================================================================
