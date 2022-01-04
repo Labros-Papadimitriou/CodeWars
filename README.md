@@ -104,6 +104,7 @@
 | 5 kyu | [Number of trailing zeros of N!](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34) | [numbers-of-trailing-zeros-of-n.cs](./C(sharp)/numbers-of-trailing-zeros-of-n.cs) |
 | 5 kyu | [Convert PascalCase string into snake_case](https://www.codewars.com/kata/58f1419b03388b4d45000081) | [convert-pascalcase-string-into-snake_case.cs](./C(sharp)/convert-pascalcase-string-into-snake_case.cs) |
 | 5 kyu | [Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048) | [scramblies.cs](./C(sharp)/scramblies.cs) |
+| 5 kyu | [Valid Parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688) | [valid-parentheses.cs](./C(sharp)/valid-parentheses.cs) |
 
 
 ### C# - 6 kyu
