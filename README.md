@@ -114,3 +114,5 @@
 | 6 kyu | [Backspaces in string](https://www.codewars.com/kata/5727bb0fe81185ae62000ae3) | [backspaces-in-string.cs](./C(sharp)/backspaces-in-string.cs) |
 | 6 kyu | [String average](https://www.codewars.com/kata/5966847f4025872c7d00015b) | [string-average.cs](./C(sharp)/string-average.cs) |
 | 6 kyu | [Which are in?](https://www.codewars.com/kata/550554fd08b86f84fe000a58) | [which-are-in.cs](./C(sharp)/which-are-in.cs) |
+| 6 kyu | [Valid String](https://www.codewars.com/kata/52f3bb2095d6bfeac2002196) | [valid-string.cs](./C(sharp)/valid-string.cs) |
+
