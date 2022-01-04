@@ -116,3 +116,5 @@
 | 6 kyu | [Which are in?](https://www.codewars.com/kata/550554fd08b86f84fe000a58) | [which-are-in.cs](./C(sharp)/which-are-in.cs) |
 | 6 kyu | [Valid String](https://www.codewars.com/kata/52f3bb2095d6bfeac2002196) | [valid-string.cs](./C(sharp)/valid-string.cs) |
 | 6 kyu | [Delete occurrences of an element if it occurs more than n times](https://www.codewars.com/kata/554ca54ffa7d91b236000023) | [delete-occurrences-occurs-more-than-n.cs](./C(sharp)/delete-occurrences-occurs-more-than-n.cs) |
+| 6 kyu | [Count the smiley faces!](https://www.codewars.com/kata/583203e6eb35d7980400002a) | [count-the-smiley-faces.cs](./C(sharp)/count-the-smiley-faces.cs) |
+
