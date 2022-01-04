@@ -118,4 +118,5 @@
 | 6 kyu | [Delete occurrences of an element if it occurs more than n times](https://www.codewars.com/kata/554ca54ffa7d91b236000023) | [delete-occurrences-occurs-more-than-n.cs](./C(sharp)/delete-occurrences-occurs-more-than-n.cs) |
 | 6 kyu | [Count the smiley faces!](https://www.codewars.com/kata/583203e6eb35d7980400002a) | [count-the-smiley-faces.cs](./C(sharp)/count-the-smiley-faces.cs) |
 | 6 kyu | [Valid Braces](https://www.codewars.com/kata/5277c8a221e209d3f6000b56) | [valid-braces.cs](./C(sharp)/valid-braces.cs) |
+| 6 kyu | [Mexican Wave](https://www.codewars.com/kata/58f5c63f1e26ecda7e000029) | [mexican-wave.cs](./C(sharp)/mexican-wave.cs) |
 
