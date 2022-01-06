@@ -96,6 +96,7 @@
 | 4 kyu | [Adding Big Numbers](https://www.codewars.com/kata/525f4206b73515bffb000b21) | [adding-big-numbers.cs](./C(sharp)/adding-big-numbers.cs) |
 | 4 kyu | [Strings Mix](https://www.codewars.com/kata/5629db57620258aa9d000014) | [strings-mix.cs](./C(sharp)/strings-mix.cs) |
 | 4 kyu | [Sum of Intervals](https://www.codewars.com/kata/52b7ed099cdc285c300001cd/csharp) | [sum-of-intervals.cs](./C(sharp)/sum-of-intervals.cs) |
+| 4 kyu | [Decode the Morse code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457/csharp) | [decode-the-morse-code-advanced.cs](./C(sharp)/decode-the-morse-code-advanced.cs) |
 
 
 ### C# - 5 kyu
