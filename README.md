@@ -97,6 +97,7 @@
 | 4 kyu | [Strings Mix](https://www.codewars.com/kata/5629db57620258aa9d000014) | [strings-mix.cs](./C(sharp)/strings-mix.cs) |
 | 4 kyu | [Sum of Intervals](https://www.codewars.com/kata/52b7ed099cdc285c300001cd/csharp) | [sum-of-intervals.cs](./C(sharp)/sum-of-intervals.cs) |
 | 4 kyu | [Decode the Morse code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457/csharp) | [decode-the-morse-code-advanced.cs](./C(sharp)/decode-the-morse-code-advanced.cs) |
+| 4 kyu | [Most frequently used words in a text](https://www.codewars.com/kata/51e056fe544cf36c410000fb/solutions/csharp/me/best_practice) | [most-frequently-used-words-in-a-text.cs](./C(sharp)/most-frequently-used-words-in-a-text.cs) |
 
 
 ### C# - 5 kyu
