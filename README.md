@@ -100,6 +100,7 @@
 | 4 kyu | [Most frequently used words in a text](https://www.codewars.com/kata/51e056fe544cf36c410000fb/solutions/csharp/me/best_practice) | [most-frequently-used-words-in-a-text.cs](./C(sharp)/most-frequently-used-words-in-a-text.cs) |
 | 4 kyu | [Next smaller number with the same digits](https://www.codewars.com/kata/5659c6d896bc135c4c00021e) | [next-smaller-number-with-the-same-digits.cs](./C(sharp)/next-smaller-number-with-the-same-digits.cs) |
 | 4 kyu | [Sudoku Solution Validator](https://www.codewars.com/kata/529bf0e9bdf7657179000008) | [sudoku-solution-validator.cs](./C(sharp)/sudoku-solution-validator.cs) |
+| 4 kyu | [Strip Comments](https://www.codewars.com/kata/51c8e37cee245da6b40000bd) | [strip-comments.cs](./C(sharp)/strip-comments.cs) |
 
 
 ### C# - 5 kyu
