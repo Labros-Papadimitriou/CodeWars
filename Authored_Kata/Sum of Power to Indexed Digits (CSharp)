@@ -1,1 +1,170 @@
 DESCRIPTION
+
+This kata is a more advanced version of <a href="https://www.codewars.com/kata/61ba0ba66aac5e0016519e3a">Power of Numbers in a String</a>.</br></br>
+<b>~~~~~~~~~~~~~~~~~~~~~~THERE IS A RESTRICTION~~~~~~~~~~~~~~~~~~~~~</br> YOU SHOULD NOT DECLARE ANY LOCAL VARIABLES IN THE METHOD BODY !!!</b></br>
+<small>ATTENSION: if,for,foreach,while,do while,etc : Include a variable declaration!</small></br></br>
+This time you are given a string that can be Empty or contain Letters,Digits,Symbols.</br>
+Your task is to find the power of each digit raised on its index position and return the string without touching anything else(letters,symbols).</br><b>Index for this kata starts at 1 !!!</b></br></br>
+An extra thing to do is, if the sum of the digits in the given string is odd you have to </br>insert in your string a "-" between every char, else (sum is even) insert a "+" between every char.</br>
+<b>'Between every char' doesnt include start and end of the string!</br> Results of raised digits should be treated as one char, </br>hence you will not insert a seperator inside them!</b></br>
+<hr>
+<b>See the examples below to fully understand:</b></br>
+<i>Example Input:</i> "a1b3!"</br>
+<i>Result:</i> "a+1+b+81+!"</br>
+In this example we have 1 and 3 as digits.</br>
+Since 1 + 3 = 4 is even, we have to insert between all chars a "+".</br></br>
+<i>Example Input:</i> "531"</br>
+<i>Result:</i> "5-9-1"</br>
+In this example we have 5, 3 and 1 as digits.</br>
+Since 5 + 3 + 1 = 9 is odd, we have to insert between all chars a "-".</br></br>
+<i>Example Input:</i> "!8!8!8!"</br>
+<i>Result:</i> "!+64+!+4096+!+262144+!"</br>
+In this example we have 8,8 and 8 as digits.</br>
+Since 8 + 8 + 8 = 24 is even, we have to insert between all chars a "+".</br></br>
+
+<i>Example Input:</i> "abc"</br>
+<i>Result:</i> "a+b+c"</br>
+In this example there are no digits so the sum is 0 (which is even).
+So we have to insert between all chars a "+".</br></br>
+
+<i>Example Input:</i> ""</br>
+<i>Result:</i> ""</br>
+
+===================================================================================================================================
+===================================================================================================================================
+
+EXAMPLE TEST CASES
+
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
+    using Kata;
+  
+    [TestFixture]
+    public class Sample_Tests
+    {
+        [Test]
+        public void RaiseDigitsIndex_TEST()
+        {
+          Assert.AreEqual("a+1+b+81+!", "a1b3!".RaiseDigitsIndex());
+          Assert.AreEqual("5-9-1", "531".RaiseDigitsIndex());
+          Assert.AreEqual("!+64+!+4096+!+262144+!", "!8!8!8!".RaiseDigitsIndex());
+          Assert.AreEqual("a+b+c", "abc".RaiseDigitsIndex());
+          Assert.AreEqual("", "".RaiseDigitsIndex());
+        }     
+    }
+}
+
+===================================================================================================================================
+===================================================================================================================================
+
+TEST CASES
+
+namespace TestSolution
+{
+    using System;
+    using System.Linq;
+  
+    public static class Problem
+    {
+        public static string TestRaiseDigitsIndex(this string str)
+        {
+          return string.Join(str.Where(d=>char.IsDigit(d)).Sum(s=>s)%2==0?"+":"-",str.Select((x,i)=>char.IsDigit(x)?Math.Pow(x-48,i+1).ToString():x.ToString()));
+        }
+    }
+}
+
+namespace Solution
+{
+    using NUnit.Framework;
+    using System;
+    using System.Reflection;
+    using Kata;
+    using TestSolution;
+  
+    [TestFixture]
+    public class Sample_Tests
+    {
+      [Test]
+      public void RaiseDigitsIndex_ONELINCE_CHECK()
+      {
+        MethodInfo mi = typeof(Kata.Problem).GetMethod("RaiseDigitsIndex");
+        MethodBody mb = mi.GetMethodBody();
+        Assert.That(mb.LocalVariables.Count, Is.EqualTo(1), "Local Variable Declaration Detected!!! --> Go For OneLine Solution!");
+      }       
+      
+      [Test]
+        public void RaiseDigitsIndex_TEST2()
+        {
+          Assert.AreEqual("_-_-_-_-_-531441-_-_-_-_-_", "_____9_____".RaiseDigitsIndex());
+          Assert.AreEqual("a+4+b+256+c+64+b+a", "a2b4c2ba".RaiseDigitsIndex());
+          Assert.AreEqual("0-1-O-1-o-1-0", "01O1o10".RaiseDigitsIndex());
+          Assert.AreEqual("+-+-+-+-+-+-+-+-+-3486784401", "+++++++++9".RaiseDigitsIndex());
+          Assert.AreEqual("++-+++-+7776+46656+279936+-+++-++", "+-+-666-+-+".RaiseDigitsIndex());
+        } 
+      
+      [Test]
+        public void RaiseDigitsIndex_EDGE_CASES()
+        {
+          Assert.AreEqual("9+81+729+6561+59049+531441+4782969+43046721+387420489+3486784401", "9999999999".RaiseDigitsIndex());
+          Assert.AreEqual("1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1", "1111111111111111111111111111111".RaiseDigitsIndex());
+          Assert.AreEqual("0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0", "000000000000000000000".RaiseDigitsIndex());
+          Assert.AreEqual("!+^+@+$+1+262144+279936+256+262144+9765625+a+d+h+f+v+1+131072+387420489+609359740010496+1048576", "!^@$186245adhfv12362".RaiseDigitsIndex());
+          Assert.AreEqual("s+u+s+d+f+g+F+&+^+#+&+^+V+&+@+^+#+V+F+&+#+f+v+B+@+V+*+#+B+V+*+@+#+B+J+B+b+K+k+j+b+l+k+j+h+b+l+k+b+#+@+$+R+#+@+#+%+%+h+k+j+b+l+k+j+h+b", "susdfgF&^#&^V&@^#VF&#fvB@V*#BV*@#BJBbKkjblkjhblkb#@$R#@#%%hkjblkjhb".RaiseDigitsIndex());
+        }
+      private static Random rnd = new Random();
+      [Test]
+      public void RandomTests()
+      {
+        const string chars = "abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*-+=_";
+        for (int i = 0; i < 100; ++i) 
+        {
+          string test = "";
+          int loops = rnd.Next(0, 15);
+          for (int j = 0; j < loops; ++j)
+          {
+            test += chars[rnd.Next(0, chars.Length)];
+          }
+          Assert.AreEqual(test.TestRaiseDigitsIndex(), test.RaiseDigitsIndex());
+        }
+      }
+    }
+}
+
+===================================================================================================================================
+===================================================================================================================================
+
+INITIAL SOLUTION
+
+namespace Kata 
+{
+  public static class Problem
+  {
+    public static string RaiseDigitsIndex(this string str)
+    {
+      return //Show me your OneLine Solution. Good Luck & Have Fun !
+    }
+  }
+}
+
+
+===================================================================================================================================
+===================================================================================================================================
+
+using System;
+using System.Linq;
+namespace Kata 
+{
+  public static class Problem
+  {
+    public static string RaiseDigitsIndex(this string str)
+    {
+      return string.Join(str.Where(d=>char.IsDigit(d)).Sum(s=>s)%2==0?"+":"-",str.Select((x,i)=>char.IsDigit(x)?Math.Pow(x-48,i+1).ToString():x.ToString()));
+    }
+  }
+}
+
+
+===================================================================================================================================
+===================================================================================================================================
