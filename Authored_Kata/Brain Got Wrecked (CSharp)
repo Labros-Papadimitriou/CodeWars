@@ -1,0 +1,189 @@
+DESCRIPTION
+
+You are given a <b>name</b> and an <b>age</b>.
+Your task is simple!Check if this person is able to <b>vote</b>.</br>
+But there's a problem. Since your last car accident, your brain works a little wierd.
+<ul>
+<li>Any string you see, you convert all its characters to their ASCII decimal representation and concatenate them all to a single string</li>
+<li>Any number you see, you transform it to a string representing the number in words.(if result is 2 words seperate them by a single whitespace, ex. "twenty three")</li>
+<li>Any boolean value you see, you convert it to 1 and 0 (respectivly, true and flase).</li>
+</ul>
+
+Given names will always contain letters without spaces, and will never be empty strting.</br>
+Given age will always be a positive int in range from 2 to 99.</br>
+You need to be 18 years old or older in order to be able to vote.</br>
+
+<i>READ THE EXAMPLES BELOW TO SEE THE EXPCETED OUTPUT FORMAT!</i></br></br>
+<b>~~~~~~~~~~EXAMPLES~~~~~~~~~~</b></br>
+So given a name: <i>"John"</i> and an age: <i>23</i></br>
+You see the name as: "74111104110" ('J' -> 74, 'o' -> 111, 'h' -> 104, 'n' -> 110), and</br>
+You see the age as: "twenty three".</br>
+So the <i>output</i> here should be: "74111104110 who is twenty three years old is 1 to vote"</br>
+
+Another example: name: <i>"Tom"</i>, age: <i>12</i></br>
+<i>Output</i>: "84111109 who is twelve years old is 0 to vote"</br>
+
+
+===================================================================================================================================
+===================================================================================================================================
+
+EXAMPLE TEST CASES
+
+using NUnit.Framework;
+using System;
+
+namespace MindProblem
+{
+  [TestFixture]
+  public class KataTest
+  {
+    [Test]
+    public void Test1()
+    {
+      Assert.AreEqual("74111104110 who is twenty three years old is 1 to vote", Kata.BrainGotWrecked("John", 23));
+    }
+
+    [Test]
+    public void Test2()
+    {
+      Assert.AreEqual("84111109 who is twelve years old is 0 to vote", Kata.BrainGotWrecked("Tom", 12));
+    }
+  }
+}
+
+===================================================================================================================================
+===================================================================================================================================
+
+TEST CASES
+
+using NUnit.Framework;
+using System;
+using System.Linq;
+
+namespace StringProblem
+{
+  [TestFixture]
+  public class KataTest
+  {
+    [Test]
+    public void Test1()
+    {
+      Assert.AreEqual("7797120 who is nine years old is 0 to vote", Kata.BrainGotWrecked("Max", 9));
+    }
+    
+    [Test]
+    public void Test2()
+    {
+      Assert.AreEqual("7210199116111114 who is thirty four years old is 1 to vote", Kata.BrainGotWrecked("Hector", 34));
+    }
+    
+    [Test]
+    public void Test3()
+    {
+      Assert.AreEqual("84111109 who is two years old is 0 to vote", Kata.BrainGotWrecked("Tom", 2));
+    }
+    
+    [Test]
+    public void Test4()
+    {
+      Assert.AreEqual("66114105116110101121 who is ninety nine years old is 1 to vote", Kata.BrainGotWrecked("Britney", 99));
+    }
+
+    private const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    private Random rnd = new Random();
+    [Test] 
+    public void RandomTests()
+    {
+      for(int i = 0; i < 50; i++)
+      {
+        string str = "";
+        int loops = rnd.Next(2, 10);
+        for (int j = 0; j < loops; ++j)
+        {
+          str += chars[rnd.Next(0, chars.Length)];
+        }
+        int num = rnd.Next(2,100);
+        Assert.AreEqual(BrainGotWrecked(str, num), Kata.BrainGotWrecked(str, num));
+      }
+    }
+    
+    public static string BrainGotWrecked(string name, int age)
+    {
+      int vote = age;
+      string newName = "";
+      string newAge = "";
+
+      string[] numberNames = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
+      string[] tenNames = { "zero", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
+
+      if (age > 0 && age < 20)
+      {
+          newAge += numberNames[age];
+      }
+      else if (age >= 20 && age < 100)
+      {
+          newAge += tenNames[age / 10];
+          age %= 10;
+          newAge += age > 0 ? " " + numberNames[age] : "";
+      }
+
+      newName = string.Concat(name.Select(x => (int)x));
+
+      return $"{newName} who is {newAge} years old is {Convert.ToInt32(vote >= 18)} to vote"; 
+    }
+  }
+}
+
+===================================================================================================================================
+===================================================================================================================================
+
+INITIAL SOLUTION
+
+using System;
+public class Kata
+{
+  public static string BrainGotWrecked(string name, int age)
+  {
+    throw new NotImplementedException();
+  }
+}
+
+
+
+===================================================================================================================================
+===================================================================================================================================
+
+COMPLETE SOLUTION
+
+using System;
+using System.Linq;
+public class Kata
+{
+  public static string BrainGotWrecked(string name, int age)
+  {
+    int vote = age;
+    string newName = "";
+    string newAge = "";
+
+    string[] numberNames = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
+    string[] tenNames = { "zero", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
+
+    if (age > 0 && age < 20)
+    {
+        newAge += numberNames[age];
+    }
+    else if (age >= 20 && age < 100)
+    {
+        newAge += tenNames[age / 10];
+        age %= 10;
+        newAge += age > 0 ? " " + numberNames[age] : "";
+    }
+
+    newName = string.Concat(name.Select(x => (int)x));
+
+    return $"{newName} who is {newAge} years old is {Convert.ToInt32(vote >= 18)} to vote"; 
+  }
+}
+
+===================================================================================================================================
+===================================================================================================================================
