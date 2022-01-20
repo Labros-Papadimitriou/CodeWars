@@ -1,7 +1,7 @@
 DESCRIPTION
 
-You are given a string containing zeros or positive numbers and letters <b>ONLY</b>. String will never be empty.<br/>
-Your task is to return a string with each number raised to power of 2, without touching the letters.<br/>
+You are given a string containing zeros or positive digits and letters <b>ONLY</b>. String will never be empty.<br/>
+Your task is to return a string with each digit raised to power of 2, without touching the letters.<br/>
 <b>Example Input:</b> "a2b4c" <b>Result:</b> "a4b16c"<br/>
 <b>Example Input:</b> "123" <b>Result:</b> "149"<br/>
 <b>Example Input:</b> "abcd" <b>Result:</b> "abcd"
