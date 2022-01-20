@@ -1,0 +1,210 @@
+DESCRIPTION
+
+<b>Dom and Sara want to play a game!</b>
+<h2>Game Rules</h2>
+
+<ul>
+<li>Both players are given the same string.</li>
+<li>Both players have to make substrings using the letters of the string.</li>
+<li>Dom has to make words starting with consonants.</li>
+<li>Sara has to make words starting with vowels [AEIOU].</li>
+<li>The game ends when both players have made all possible substrings.</li>
+</ul>
+<h4>Scoring</h4>
+A player gets +1 point for each occurrence of the substring in the string.</br>
+
+<i>For Example:</i></br>
+String  = BANANA</br>
+Sara's vowel beginning word = ANA</br>
+Here, ANA occurs twice in BANANA. Hence, Sara will get 2 Points.</br>
+
+For better understanding, see the image below:</br>
+
+```
+                                         ┌──────────────┐
+                                         │ B A N A N A  │
+                                         └──────────────┘
+                         Dom (Wins)                              Sara
+                         
+                    WORDS         SCORE                   WORDS         SCORE     
+                      B             1                       A             3
+                      N             2                      AN             2
+                     BA             1                     ANA             2
+                     NA             2                    ANAN             1
+                    BAN             1                   ANANA             1
+                    NAN             1
+                   BANA             1
+                   NANA             1
+                  BANAN             1
+                 BANANA             1
+                 
+                  TOTAL            12                   TOTAl             9
+  ```
+  
+Your task is to determine the winner of the game and their score.
+<ul>
+<li>Return a string showing the winner's name and score, separated by a space on one line, or Draw if there is no winner</li>
+<ul>
+<i>Sample Output:</i> Dom 12 
+
+<h4>Input Format</h4>
+A single line of input containing the string.</br>
+Note: The string  will contain only uppercase letters [A-Z].</br>
+String length will be 0 < string.Length < 10000
+
+===================================================================================================================================
+===================================================================================================================================
+
+EXAMPLE TEST CASES
+
+using NUnit.Framework;
+using System;
+
+namespace Game
+{
+  [TestFixture]
+  public class KataTest
+  {
+    [Test]
+    public void Test1()
+    {
+      Assert.AreEqual("Dom 12", Kata.CountSubstringsGame("BANANA"));
+    }
+    
+    [Test]
+    public void Test2()
+    {
+      Assert.AreEqual("Sara 19", Kata.CountSubstringsGame("BAANANAS"));
+    }
+    
+    [Test]
+    public void Test3()
+    {
+      Assert.AreEqual("Draw", Kata.CountSubstringsGame("BANAASA"));
+    }
+  }
+}
+
+===================================================================================================================================
+===================================================================================================================================
+
+TEST CASES
+
+using NUnit.Framework;
+using System;
+using System.Linq;
+
+namespace Game
+{
+  [TestFixture]
+  public class KataTest
+  {
+    [Test]
+    public void Test1()
+    {
+      Assert.AreEqual("Dom 1", Kata.CountSubstringsGame("B"));
+    }
+    
+    [Test]
+    public void Test2()
+    {
+      Assert.AreEqual("Sara 1", Kata.CountSubstringsGame("U"));
+    }
+    
+    [Test]
+    public void Test3()
+    {
+      Assert.AreEqual("Dom 1", Kata.CountSubstringsGame("Z"));
+    }
+
+    private const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private Random rnd = new Random();
+    [Test] 
+    public void RandomTests()
+    {
+      for(int i = 0; i < 100; i++)
+      {
+        string str = "";
+        int loops = rnd.Next(1, 10000);
+        for (int j = 0; j < loops; ++j)
+        {
+          str += chars[rnd.Next(0, chars.Length)];
+        }
+        Assert.AreEqual(CountSubstringsGame(str), Kata.CountSubstringsGame(str));
+      }
+    }
+    
+    public static string CountSubstringsGame(string word)
+    {
+      string vowels = "AEIOU";
+
+      int domScore = 0;
+      int saraScore = 0;
+
+      for(int i = 0; i < word.Length; i++)
+      {
+        if(vowels.Contains(word[i].ToString()))
+        {
+          saraScore += word.Length - i;  
+        }
+        else
+        {
+          domScore += word.Length - i;  
+        }
+      }
+      return domScore > saraScore ? "Dom" + " " + domScore : domScore < saraScore ? "Sara" + " " + saraScore : "Draw";
+    }
+  }
+}
+
+
+===================================================================================================================================
+===================================================================================================================================
+
+INITIAL SOLUTION
+
+using System;
+using System.Linq;
+public class Kata
+{
+  public static string CountSubstringsGame(string word)
+  {
+    throw new NotImplementedException();
+  }
+}
+
+
+===================================================================================================================================
+===================================================================================================================================
+
+COMPLETE SOLUTION
+
+using System;
+using System.Linq;
+public class Kata
+{
+  public static string CountSubstringsGame(string word)
+  {
+    string vowels = "AEIOU";
+    
+    int domScore = 0;
+    int saraScore = 0;
+    
+    for(int i = 0; i < word.Length; i++)
+    {
+      if(vowels.Contains(word[i].ToString()))
+      {
+        saraScore += word.Length - i;  
+      }
+      else
+      {
+        domScore += word.Length - i;  
+      }
+    }
+    return domScore > saraScore ? "Dom" + " " + domScore : domScore < saraScore ? "Sara" + " " + saraScore : "Draw";
+  }
+}
+
+
+===================================================================================================================================
+===================================================================================================================================
