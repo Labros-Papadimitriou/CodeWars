@@ -126,3 +126,4 @@
 | 6 kyu | [Valid Braces](https://www.codewars.com/kata/5277c8a221e209d3f6000b56) | [valid-braces.cs](./C(sharp)/valid-braces.cs) |
 | 6 kyu | [Mexican Wave](https://www.codewars.com/kata/58f5c63f1e26ecda7e000029) | [mexican-wave.cs](./C(sharp)/mexican-wave.cs) |
 | 6 kyu | [Mutual Recursion](https://www.codewars.com/kata/53a1eac7e0afd3ad3300008b/csharp) | [mutual-recursion.cs](./C(sharp)/mutual-recursion.cs) |
+| 6 kyu | [Mad Max: Recursion Road](https://www.codewars.com/kata/57bd0abcb9799763f1001bdc/javascript) | [mad-max-recursion-road.cs](./C(sharp)/mad-max-recursion-road.cs) |
