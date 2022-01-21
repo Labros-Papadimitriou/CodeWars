@@ -1,0 +1,2 @@
+puzzle = []
+puzzle.append(puzzle)
