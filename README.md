@@ -41,6 +41,8 @@
 | 6 kyu | [Persistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) | [persistent-bugger.py](./Python/persistent-bugger.py) |
 | 6 kyu | [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) | [duplicate-encoder.py](./Python/duplicate-encoder.py) |
 | 6 kyu | [Playing with digits](https://www.codewars.com/kata/5552101f47fc5178b1000050) | [playing-with-digits.py](./Python/playing-with-digits.py) |
+| 6 kyu | [Recursion puzzle](https://www.codewars.com/kata/587a58d008236e4951000197/python) | [recursion-puzzle.py](./Python/recursion-puzzle.py) |
+
 
 ### JavaScript - 3 kyu
 |	Difficulty | Kata	| Solution |
