@@ -93,6 +93,7 @@
 | 6 kyu | [Take a Ten Minute Walk](https://www.codewars.com/kata/54da539698b8a2ad76000228) | [take-a-ten-minute-walk.js](./JavaScript/take-a-ten-minute-walk.js) |
 | 6 kyu | [Mad Max: Recursion Road](https://www.codewars.com/kata/57bd0abcb9799763f1001bdc/javascript) | [mad-max-recursion-road.js](./JavaScript/mad-max-recursion-road.js) |
 | 6 kyu | [Recursion: An introduction](https://www.codewars.com/kata/577ff873d648a1c5a9000143/javascript) | [recursion-an-introduction.js](./JavaScript/recursion-an-introduction.js) |
+| 6 kyu | [Pair of gloves](https://www.codewars.com/kata/58235a167a8cb37e1a0000db/javascript) | [pair-of-gloves.js](./JavaScript/pair-of-gloves.js) |
 
 
 ### C# - 4 kyu
