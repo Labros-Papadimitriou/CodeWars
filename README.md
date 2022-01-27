@@ -133,4 +133,5 @@
 | 6 kyu | [Mexican Wave](https://www.codewars.com/kata/58f5c63f1e26ecda7e000029) | [mexican-wave.cs](./C(sharp)/mexican-wave.cs) |
 | 6 kyu | [Mutual Recursion](https://www.codewars.com/kata/53a1eac7e0afd3ad3300008b/csharp) | [mutual-recursion.cs](./C(sharp)/mutual-recursion.cs) |
  | 6 kyu | [Find the smallest](https://www.codewars.com/kata/573992c724fc289553000e95/csharp) | [find-the-smallest.cs](./C(sharp)/find-the-smallest.cs) |
+ | 6 kyu | [Length of missing array](https://www.codewars.com/kata/57b6f5aadb5b3d0ae3000611/csharp) | [length-of-missing-array.cs](./C(sharp)/length-of-missing-array.cs) |
  
