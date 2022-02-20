@@ -119,6 +119,8 @@
 | 5 kyu | [Valid Parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688) | [valid-parentheses.cs](./C(sharp)/valid-parentheses.cs) |
 | 5 kyu | [Did I Finish my Sudoku?](https://www.codewars.com/kata/53db96041f1a7d32dc0004d2/csharp) | [did-i-finish-my-sudoku.cs](./C(sharp)/did-i-finish-my-sudoku.cs) |
 | 5 kyu | [Not very secure](https://www.codewars.com/kata/526dbd6c8c0eb53254000110/csharp) | [not-very-secure.cs](./C(sharp)/not-very-secure.cs) |
+| 5 kyu | [PaginationHelper](https://www.codewars.com/kata/515bb423de843ea99400000a/csharp) | [pagination-helper.cs](./C(sharp)/pagination-helper.cs) |
+
 
 ### C# - 6 kyu
 |	Difficulty | Kata	| Solution |
