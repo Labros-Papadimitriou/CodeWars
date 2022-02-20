@@ -135,4 +135,5 @@
  | 6 kyu | [Find the smallest](https://www.codewars.com/kata/573992c724fc289553000e95/csharp) | [find-the-smallest.cs](./C(sharp)/find-the-smallest.cs) |
  | 6 kyu | [Length of missing array](https://www.codewars.com/kata/57b6f5aadb5b3d0ae3000611/csharp) | [length-of-missing-array.cs](./C(sharp)/length-of-missing-array.cs) |
  | 6 kyu | [Basics 03: Strings, Numbers and Calculation](https://www.codewars.com/kata/56b5dc75d362eac53d000bc8/csharp) | [basics-03-strings-numbers-and-calculation.cs](./C(sharp)/basics-03-strings-numbers-and-calculation.cs) |
+ | 6 kyu | [Multiplication Table](https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08/csharp) | [multiplication-table.cs](./C(sharp)/multiplication-table.cs) |
  
