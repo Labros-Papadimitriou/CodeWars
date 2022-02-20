@@ -117,6 +117,7 @@
 | 5 kyu | [Convert PascalCase string into snake_case](https://www.codewars.com/kata/529b418d533b76924600085d) | [convert-pascalcase-string-into-snake_case.cs](./C(sharp)/convert-pascalcase-string-into-snake_case.cs) |
 | 5 kyu | [Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048) | [scramblies.cs](./C(sharp)/scramblies.cs) |
 | 5 kyu | [Valid Parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688) | [valid-parentheses.cs](./C(sharp)/valid-parentheses.cs) |
+| 5 kyu | [Did I Finish my Sudoku?](https://www.codewars.com/kata/53db96041f1a7d32dc0004d2/csharp) | [did-i-finish-my-sudoku.cs](./C(sharp)/did-i-finish-my-sudoku.cs) |
 
 
 ### C# - 6 kyu
