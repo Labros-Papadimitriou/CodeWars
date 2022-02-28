@@ -13,7 +13,7 @@
 - [C# - 5 kyu](#C---5-kyu)
 - [C# - 6 kyu](#C---6-kyu)
     
- 
+  
 ### Python - 4 kyu
 |	Difficulty | Kata	| Solution |
 |------------|------------|----------|
