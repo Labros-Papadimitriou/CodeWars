@@ -69,6 +69,7 @@
 | 5 kyu | [Regex Password Validation](https://www.codewars.com/kata/52e1476c8147a7547a000811) | [regex-password-validation.js](./JavaScript/regex-password-validation.js) |
 | 5 kyu | [count '9's from 1 to n](https://www.codewars.com/kata/55143152820d22cdf00001bb) | [count-9s-from-1-to-n.js](./JavaScript/count-9s-from-1-to-n.js) |
 | 5 kyu | [Beeramid](https://www.codewars.com/kata/51e04f6b544cf3f6550000c1) | [beeramid.js](./JavaScript/beeramid.js) |
+| 5 kyu | [Find the unique string](https://www.codewars.com/kata/585d8c8a28bc7403ea0000c3) | [find-the-unique-string.js](./JavaScript/find-the-unique-string.js) |
 
 ### JavaScript - 6 kyu
 |	Difficulty | Kata	| Solution |
