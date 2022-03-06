@@ -142,3 +142,5 @@
 | 6 kyu | [Multiplication Table](https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08/csharp) | [multiplication-table.cs](./C(sharp)/multiplication-table.cs) |
 | 6 kyu | [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c) | [are-they-the-same.cs](./C(sharp)/are-they-the-same.cs) |
 | 6 kyu | [Sequences and Series](https://www.codewars.com/kata/5254bd1357d59fbbe90001ec) | [sequences-and-series.cs](./C(sharp)/sequences-and-series.cs) |
+| 6 kyu | [Assemble string](https://www.codewars.com/kata/6210fb7aabf047000f3a3ad6) | [assemble-string.cs](./C(sharp)/assemble-string.cs) |
+
