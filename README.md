@@ -136,8 +136,9 @@
 | 6 kyu | [Valid Braces](https://www.codewars.com/kata/5277c8a221e209d3f6000b56) | [valid-braces.cs](./C(sharp)/valid-braces.cs) |
 | 6 kyu | [Mexican Wave](https://www.codewars.com/kata/58f5c63f1e26ecda7e000029) | [mexican-wave.cs](./C(sharp)/mexican-wave.cs) |
 | 6 kyu | [Mutual Recursion](https://www.codewars.com/kata/53a1eac7e0afd3ad3300008b/csharp) | [mutual-recursion.cs](./C(sharp)/mutual-recursion.cs) |
- | 6 kyu | [Find the smallest](https://www.codewars.com/kata/573992c724fc289553000e95/csharp) | [find-the-smallest.cs](./C(sharp)/find-the-smallest.cs) |
- | 6 kyu | [Length of missing array](https://www.codewars.com/kata/57b6f5aadb5b3d0ae3000611/csharp) | [length-of-missing-array.cs](./C(sharp)/length-of-missing-array.cs) |
- | 6 kyu | [Basics 03: Strings, Numbers and Calculation](https://www.codewars.com/kata/56b5dc75d362eac53d000bc8/csharp) | [basics-03-strings-numbers-and-calculation.cs](./C(sharp)/basics-03-strings-numbers-and-calculation.cs) |
- | 6 kyu | [Multiplication Table](https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08/csharp) | [multiplication-table.cs](./C(sharp)/multiplication-table.cs) |
-  | 6 kyu | [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c) | [are-they-the-same.cs](./C(sharp)/are-they-the-same.cs) |
+| 6 kyu | [Find the smallest](https://www.codewars.com/kata/573992c724fc289553000e95/csharp) | [find-the-smallest.cs](./C(sharp)/find-the-smallest.cs) |
+| 6 kyu | [Length of missing array](https://www.codewars.com/kata/57b6f5aadb5b3d0ae3000611/csharp) | [length-of-missing-array.cs](./C(sharp)/length-of-missing-array.cs) |
+| 6 kyu | [Basics 03: Strings, Numbers and Calculation](https://www.codewars.com/kata/56b5dc75d362eac53d000bc8/csharp) | [basics-03-strings-numbers-and-calculation.cs](./C(sharp)/basics-03-strings-numbers-and-calculation.cs) |
+| 6 kyu | [Multiplication Table](https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08/csharp) | [multiplication-table.cs](./C(sharp)/multiplication-table.cs) |
+| 6 kyu | [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c) | [are-they-the-same.cs](./C(sharp)/are-they-the-same.cs) |
+| 6 kyu | [Sequences and Series](https://www.codewars.com/kata/5254bd1357d59fbbe90001ec) | [sequences-and-series.cs](./C(sharp)/sequences-and-series.cs) |
